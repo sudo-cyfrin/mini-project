@@ -1,0 +1,16 @@
+[
+  {
+    "username": "teacher",
+    "password": "$2a$10$QaOeBCdE5p1e8HnLHb/mjuqche5qFTHFpV9/7S2.2wFgJgCLm5rlG",
+    "role": "teacher",
+    "id": 1,
+    "created_at": "2025-11-04T03:35:16.249Z"
+  },
+  {
+    "username": "student",
+    "password": "$2a$10$MK6b.1Ic9RlpT7l2Fxykiekb9JmuDrJ5OHAdYwMP8QO1ISpArLEXi",
+    "role": "student",
+    "id": 2,
+    "created_at": "2025-11-04T03:35:16.323Z"
+  }
+]

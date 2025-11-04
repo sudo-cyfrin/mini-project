@@ -1,0 +1,418 @@
+{
+  "DSA": {
+    "easy": [
+      {
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+        "correct": 0
+      },
+      {
+        "question": "Which data structure follows LIFO (Last In First Out) principle?",
+        "options": ["Queue", "Stack", "Linked List", "Array"],
+        "correct": 1
+      },
+      {
+        "question": "What is the time complexity of binary search on a sorted array?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+        "correct": 1
+      },
+      {
+        "question": "In a singly linked list, which pointer points to the next node?",
+        "options": ["prev", "current", "next", "head"],
+        "correct": 2
+      },
+      {
+        "question": "What is the maximum number of nodes in a binary tree of height h?",
+        "options": ["h", "2h", "2^h - 1", "2^(h+1) - 1"],
+        "correct": 2
+      }
+    ],
+    "medium": [
+      {
+        "question": "What is the time complexity of merge sort?",
+        "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+        "correct": 1
+      },
+      {
+        "question": "In a binary search tree, elements in left subtree are:",
+        "options": ["Greater than root", "Equal to root", "Less than root", "Unrelated to root"],
+        "correct": 2
+      },
+      {
+        "question": "What is the worst-case time complexity of quicksort?",
+        "options": ["O(n log n)", "O(n²)", "O(log n)", "O(n)"],
+        "correct": 1
+      },
+      {
+        "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+        "options": ["DFS", "BFS", "Dijkstra's", "Bubble Sort"],
+        "correct": 2
+      },
+      {
+        "question": "What is the space complexity of recursive depth-first search on a graph?",
+        "options": ["O(n)", "O(log n)", "O(1)", "O(V + E)"],
+        "correct": 0
+      }
+    ],
+    "hard": [
+      {
+        "question": "What is the time complexity of the Floyd-Warshall algorithm?",
+        "options": ["O(V)", "O(V²)", "O(V³)", "O(E log V)"],
+        "correct": 2
+      },
+      {
+        "question": "In dynamic programming, what is memoization used for?",
+        "options": ["Storing recursive results", "Sorting arrays", "Searching elements", "Traversing trees"],
+        "correct": 0
+      },
+      {
+        "question": "What is the time complexity of Kruskal's algorithm for minimum spanning tree?",
+        "options": ["O(V)", "O(V log V)", "O(E log E)", "O(V²)"],
+        "correct": 2
+      },
+      {
+        "question": "Which data structure is best for implementing a priority queue?",
+        "options": ["Array", "Linked List", "Heap", "Stack"],
+        "correct": 2
+      },
+      {
+        "question": "What is the time complexity of finding all strongly connected components in a graph?",
+        "options": ["O(V)", "O(V + E)", "O(V²)", "O(E²)"],
+        "correct": 1
+      }
+    ]
+  },
+  "DBMS": {
+    "easy": [
+      {
+        "question": "What does DBMS stand for?",
+        "options": ["Database Management System", "Data Backup Management System", "Digital Business Management System", "Database Migration System"],
+        "correct": 0
+      },
+      {
+        "question": "Which of the following is not a type of database?",
+        "options": ["Relational", "NoSQL", "Hierarchical", "Linear"],
+        "correct": 3
+      },
+      {
+        "question": "What is a primary key in a database?",
+        "options": ["A key that opens the database", "A unique identifier for a record", "The first column in a table", "A foreign key"],
+        "correct": 1
+      },
+      {
+        "question": "What does SQL stand for?",
+        "options": ["Simple Query Language", "Structured Query Language", "Standard Query Language", "System Query Language"],
+        "correct": 1
+      },
+      {
+        "question": "Which SQL command is used to retrieve data from a database?",
+        "options": ["GET", "SELECT", "FETCH", "RETRIEVE"],
+        "correct": 1
+      }
+    ],
+    "medium": [
+      {
+        "question": "What is the purpose of a foreign key?",
+        "options": ["To create links between tables", "To encrypt data", "To backup data", "To optimize queries"],
+        "correct": 0
+      },
+      {
+        "question": "What is ACID in database transactions?",
+        "options": ["A programming language", "Properties of database transactions", "A database model", "A query type"],
+        "correct": 1
+      },
+      {
+        "question": "Which normalization form ensures no partial dependencies?",
+        "options": ["1NF", "2NF", "3NF", "BCNF"],
+        "correct": 1
+      },
+      {
+        "question": "What is an index in a database?",
+        "options": ["A type of data", "A data structure that improves query speed", "A primary key", "A foreign key"],
+        "correct": 1
+      },
+      {
+        "question": "What is a view in SQL?",
+        "options": ["A physical table", "A virtual table based on a query", "A database schema", "A transaction"],
+        "correct": 1
+      }
+    ],
+    "hard": [
+      {
+        "question": "What is the difference between clustered and non-clustered indexes?",
+        "options": ["No difference", "Clustered indexes sort data physically", "Non-clustered indexes are faster", "Clustered indexes use more space"],
+        "correct": 1
+      },
+      {
+        "question": "What is the purpose of a transaction log in databases?",
+        "options": ["To store query results", "To maintain ACID properties and enable recovery", "To optimize performance", "To store user data"],
+        "correct": 1
+      },
+      {
+        "question": "Which join returns all records from the left table and matching records from the right?",
+        "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+        "correct": 1
+      },
+      {
+        "question": "What is a deadlock in database systems?",
+        "options": ["A locked file", "A situation where transactions wait indefinitely", "A slow query", "A corrupted database"],
+        "correct": 1
+      },
+      {
+        "question": "What is the purpose of database normalization?",
+        "options": ["To increase redundancy", "To reduce redundancy and improve data integrity", "To speed up queries", "To add more data"],
+        "correct": 1
+      }
+    ]
+  },
+  "OS": {
+    "easy": [
+      {
+        "question": "What does OS stand for?",
+        "options": ["Operating System", "Output System", "Optical System", "Open Source"],
+        "correct": 0
+      },
+      {
+        "question": "Which OS feature allows multiple programs to run simultaneously?",
+        "options": ["Multitasking", "Monotasking", "Singletasking", "Unitasking"],
+        "correct": 0
+      },
+      {
+        "question": "What is RAM in a computer?",
+        "options": ["Read Access Memory", "Random Access Memory", "Rapid Access Memory", "Reliable Access Memory"],
+        "correct": 1
+      },
+      {
+        "question": "What is the function of a scheduler in an OS?",
+        "options": ["To schedule meetings", "To manage CPU time allocation", "To schedule backups", "To schedule updates"],
+        "correct": 1
+      },
+      {
+        "question": "What is a process in an operating system?",
+        "options": ["A program in execution", "A file", "A folder", "A peripheral device"],
+        "correct": 0
+      }
+    ],
+    "medium": [
+      {
+        "question": "What is the difference between a process and a thread?",
+        "options": ["Thread is lighter than process", "Process is lighter than thread", "No difference", "Both are the same"],
+        "correct": 0
+      },
+      {
+        "question": "What is virtual memory?",
+        "options": ["Physical memory", "A technique to extend main memory using disk", "A type of RAM", "Cache memory"],
+        "correct": 1
+      },
+      {
+        "question": "What is a deadlock?",
+        "options": ["A process crash", "A situation where processes wait indefinitely", "A system shutdown", "A memory leak"],
+        "correct": 1
+      },
+      {
+        "question": "Which scheduling algorithm ensures shortest job gets executed first?",
+        "options": ["FCFS", "SJF", "Round Robin", "Priority"],
+        "correct": 1
+      },
+      {
+        "question": "What is the purpose of paging in memory management?",
+        "options": ["To organize files", "To divide memory into fixed-size blocks", "To speed up CPU", "To manage I/O"],
+        "correct": 1
+      }
+    ],
+    "hard": [
+      {
+        "question": "What is the difference between user mode and kernel mode?",
+        "options": ["No difference", "Kernel mode has higher privileges", "User mode is faster", "User mode has higher privileges"],
+        "correct": 1
+      },
+      {
+        "question": "What is a semaphore?",
+        "options": ["A file", "A synchronization primitive", "A process", "A thread"],
+        "correct": 1
+      },
+      {
+        "question": "What is thrashing in operating systems?",
+        "options": ["High CPU usage", "Excessive paging causing performance degradation", "Memory overflow", "Process crash"],
+        "correct": 1
+      },
+      {
+        "question": "Which memory management technique allows variable-size memory blocks?",
+        "options": ["Paging", "Segmentation", "Fixed partitioning", "Single partitioning"],
+        "correct": 1
+      },
+      {
+        "question": "What is the banker's algorithm used for?",
+        "options": ["Deadlock prevention", "Memory management", "Process scheduling", "File management"],
+        "correct": 0
+      }
+    ]
+  },
+  "CN": {
+    "easy": [
+      {
+        "question": "What does CN stand for?",
+        "options": ["Communication Network", "Computer Network", "Cellular Network", "Compact Network"],
+        "correct": 1
+      },
+      {
+        "question": "What is a LAN?",
+        "options": ["Large Area Network", "Local Area Network", "Long Area Network", "Limited Area Network"],
+        "correct": 1
+      },
+      {
+        "question": "What protocol is commonly used for web browsing?",
+        "options": ["FTP", "HTTP", "SMTP", "POP3"],
+        "correct": 1
+      },
+      {
+        "question": "What is an IP address?",
+        "options": ["An email address", "A unique identifier for devices on a network", "A phone number", "A password"],
+        "correct": 1
+      },
+      {
+        "question": "What does DNS stand for?",
+        "options": ["Domain Network Service", "Domain Name System", "Dynamic Network Service", "Domain Network System"],
+        "correct": 1
+      }
+    ],
+    "medium": [
+      {
+        "question": "What is the difference between TCP and UDP?",
+        "options": ["TCP is faster", "TCP is connection-oriented, UDP is connectionless", "UDP is more reliable", "No difference"],
+        "correct": 1
+      },
+      {
+        "question": "What is a router?",
+        "options": ["A network device that forwards data packets", "A type of cable", "A software program", "A browser"],
+        "correct": 0
+      },
+      {
+        "question": "What is HTTP status code 404?",
+        "options": ["Success", "Not Found", "Server Error", "Forbidden"],
+        "correct": 1
+      },
+      {
+        "question": "What is the purpose of subnetting?",
+        "options": ["To speed up internet", "To divide networks into smaller subnets", "To encrypt data", "To compress data"],
+        "correct": 1
+      },
+      {
+        "question": "What layer does IP belong to in the OSI model?",
+        "options": ["Physical", "Data Link", "Network", "Transport"],
+        "correct": 2
+      }
+    ],
+    "hard": [
+      {
+        "question": "What is the purpose of the three-way handshake in TCP?",
+        "options": ["To encrypt data", "To establish a connection", "To compress data", "To route packets"],
+        "correct": 1
+      },
+      {
+        "question": "What is NAT (Network Address Translation)?",
+        "options": ["A routing protocol", "A technique to map multiple IP addresses", "A cable type", "A port number"],
+        "correct": 1
+      },
+      {
+        "question": "What is the difference between IPv4 and IPv6?",
+        "options": ["No difference", "IPv6 has larger address space", "IPv4 is faster", "IPv6 is older"],
+        "correct": 1
+      },
+      {
+        "question": "What is BGP (Border Gateway Protocol)?",
+        "options": ["A local routing protocol", "An inter-domain routing protocol", "A transport protocol", "An application protocol"],
+        "correct": 1
+      },
+      {
+        "question": "What is MPLS?",
+        "options": ["Multi-Protocol Label Switching", "Maximum Packet Loss System", "Minimum Path Length Selection", "Maximum Protocol Link Speed"],
+        "correct": 0
+      }
+    ]
+  },
+  "Aptitude": {
+    "easy": [
+      {
+        "question": "What comes next in the sequence: 2, 4, 6, 8, ?",
+        "options": ["9", "10", "12", "14"],
+        "correct": 1
+      },
+      {
+        "question": "If 5 books cost $25, how much do 3 books cost?",
+        "options": ["$10", "$12", "$15", "$18"],
+        "correct": 2
+      },
+      {
+        "question": "What is 25% of 80?",
+        "options": ["15", "20", "25", "30"],
+        "correct": 1
+      },
+      {
+        "question": "What is the next letter: A, C, E, G, ?",
+        "options": ["H", "I", "J", "K"],
+        "correct": 1
+      },
+      {
+        "question": "If a train travels 60 km in 1 hour, how far does it travel in 2 hours?",
+        "options": ["100 km", "110 km", "120 km", "130 km"],
+        "correct": 2
+      }
+    ],
+    "medium": [
+      {
+        "question": "A rectangular garden is 20m long and 15m wide. What is its perimeter?",
+        "options": ["60m", "70m", "80m", "90m"],
+        "correct": 1
+      },
+      {
+        "question": "If x + 5 = 12, what is the value of x?",
+        "options": ["5", "6", "7", "8"],
+        "correct": 2
+      },
+      {
+        "question": "What is the square of 12?",
+        "options": ["132", "134", "144", "154"],
+        "correct": 2
+      },
+      {
+        "question": "In a class of 40 students, 60% are boys. How many girls are there?",
+        "options": ["14", "16", "18", "20"],
+        "correct": 1
+      },
+      {
+        "question": "If it takes 4 hours to complete a task, what fraction is completed in 1 hour?",
+        "options": ["1/2", "1/3", "1/4", "1/5"],
+        "correct": 2
+      }
+    ],
+    "hard": [
+      {
+        "question": "A man bought a bicycle for $200 and sold it for $250. What is his profit percentage?",
+        "options": ["20%", "25%", "30%", "35%"],
+        "correct": 1
+      },
+      {
+        "question": "If the average of 5 numbers is 20, and 4 of them are 18, 19, 21, 22, what is the fifth number?",
+        "options": ["18", "20", "22", "24"],
+        "correct": 1
+      },
+      {
+        "question": "A train is 100 meters long and passes a pole in 5 seconds. What is its speed in km/h?",
+        "options": ["60", "72", "80", "90"],
+        "correct": 1
+      },
+      {
+        "question": "If the ratio of A:B is 3:4 and B:C is 5:6, what is the ratio of A:C?",
+        "options": ["3:6", "5:8", "15:24", "1:2"],
+        "correct": 1
+      },
+      {
+        "question": "A sum of money doubles in 10 years at simple interest. In how many years will it triple?",
+        "options": ["15 years", "20 years", "25 years", "30 years"],
+        "correct": 1
+      }
+    ]
+  }
+}
+
